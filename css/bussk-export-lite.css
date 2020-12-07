@@ -1,0 +1,114 @@
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+#bussk-export-post h3{
+		padding: 8px 12px 0px 12px;
+		font-size: 14px;
+		line-height: 1.4em;
+		margin: 0px;
+}
+
+#bussk-export-post p.instructions{
+	font-style: italic;
+	margin-top: 1px;
+}
+
+
+.export-labels th{
+	text-align: right;
+	
+}
+
+.export-labels label{
+	text-align: right;
+	
+}
+
+.busskex-filter-section{
+	margin-top: 20px;
+}
+  .ui-tabs-vertical { width: 100% }
+  .ui-tabs-vertical .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 20%; }
+  .ui-tabs-vertical .ui-tabs-nav li { clear: left; width: 100%; border-bottom-width: 1px !important; border-right-width: 0 !important; margin: 0 -1px .2em 0; }
+  .ui-tabs-vertical .ui-tabs-nav li a { display:block; }
+  .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { padding-bottom: 0; padding-right: .1em; border-right-width: 1px; }
+  
+  
+ul.busskex-vert-tabs{
+	width: 20%;
+	float: left;
+	background: #fafafa;
+	margin: 0px;
+} 
+
+ul.busskex-vert-tabs li{
+	display: block;
+	line-height: 1em;
+	margin-bottom: 0px;
+}
+	
+ul.busskex-vert-tabs li.active{
+	background: #eeeeee;
+}
+	
+ul.busskex-vert-tabs li a{
+	display: block;
+	line-height: 20px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #eeeeee;
+	padding: 10px;
+}
+	
+.busskex-vert-tabs a:focus{
+	box-shadow: none !important;
+}
+	
+
+.busskex-panel{
+	float: left;
+	width: 80%;
+	background-color: #ffffff;
+	margin: 0px;
+}
+
+.busskex-inner-panel{
+	padding-left: 10px;
+}
+
+.busskex-vert-tabs a{
+	text-decoration: none;
+}
+
+.vert-tabs-container{
+	width: 100%;
+	background-color: #fafafa;
+	display: block;
+	float:left;
+}
+  
+.bussk-vert-header{
+	background-color: #fafafa;
+	border-bottom: 1px solid #eee;
+}
+
+.bussk-vert-header h3{
+	background: #ffffff;
+}
+
+
+
+
+.bussk-filter-header{
+	padding-left: 0px !important;
+}
+
+.bussk-order-status{
+	margin-top: 5px;
+	padding-left: 10px;
+}
